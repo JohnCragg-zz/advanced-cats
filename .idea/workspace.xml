@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dab375f5-9e8c-47bd-a7be-4b48207528f4" name="Default" comment="" />
+    <list default="true" id="dab375f5-9e8c-47bd-a7be-4b48207528f4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter4/RepresentingErrors.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/EvalMonadTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter4/FailFastErrorHandlingTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/FailFastErrorHandlingTest.scala" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -37,16 +45,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OurFirstMonadOptionTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/OurFirstMonadOptionTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FunctorzTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter3/FunctorzTest.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,12 +79,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FailFastErrorHandlingTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FailFastErrorHandlingTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/FailFastErrorHandlingTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="e#18#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepresentingErrors.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/RepresentingErrors.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepresentingErrorsTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#18#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvalMonad.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvalMonadTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/EvalMonadTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#18#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,32 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityMonadTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/IdentityMonadTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-              <folding>
-                <element signature="e#18#35#0" expanded="true" />
-                <element signature="e#170#184#0" expanded="true" />
-                <element signature="e#878#903#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contravariants.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter3/Contravariants.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="e#22#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -151,6 +169,9 @@
       <find>Monadz</find>
       <find>asRig</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -182,6 +203,10 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/EitherTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/TransformingEithers.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/FailFastErrorHandlingTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter4/RepresentingErrors.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter4/EvalMonadTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala" />
       </list>
     </option>
   </component>
@@ -190,6 +215,7 @@
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -306,17 +332,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.TransformingEithers">
-    <configuration name="EitherTest.we can turn data types into eithers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.EvalMonadTest.Eval types">
+    <configuration name="EvalMonadTest.Eval types" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.EitherTest" />
+      <setting name="path" value="chapter4.EvalMonadTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="we can turn data types into eithers" />
+      <setting name="testName" value="Eval types" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -325,16 +351,16 @@
       <testRegexps />
       <envs />
     </configuration>
-    <configuration name="EitherTest.we can use the asRight method to force the compiler to chose the correct type for the accumulator" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="EvalMonadTest.scala defs are lazy and not memoized" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.EitherTest" />
+      <setting name="path" value="chapter4.EvalMonadTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="we can use the asRight method to force the compiler to chose the correct type for the accumulator" />
+      <setting name="testName" value="scala defs are lazy and not memoized" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -343,10 +369,46 @@
       <testRegexps />
       <envs />
     </configuration>
-    <configuration name="TransformingEithers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="EvalMonadTest.scala lazy vals are lazy and memoized" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.TransformingEithers" />
+      <setting name="path" value="chapter4.EvalMonadTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="scala lazy vals are lazy and memoized" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="EvalMonadTest.scala vals are eager definitions" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="advanced-cats" />
+      <setting name="path" value="chapter4.EvalMonadTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="scala vals are eager definitions" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="RepresentingErrorsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="advanced-cats" />
+      <setting name="path" value="chapter4.RepresentingErrorsTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -354,42 +416,6 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-    </configuration>
-    <configuration name="TransformingEithers.recover and recover with methods provide similar error handling to their namesakes on future" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="advanced-cats" />
-      <setting name="path" value="chapter4.TransformingEithers" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="recover and recover with methods provide similar error handling to their namesakes on future" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-    </configuration>
-    <configuration name="TransformingEithers.we can use orElse and getOrElse to extract values from the right side" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="advanced-cats" />
-      <setting name="path" value="chapter4.TransformingEithers" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="we can use orElse and getOrElse to extract values from the right side" />
-      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
       <setting name="useUiWithSbt" value="false" />
@@ -479,19 +505,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.EitherTest.we can use the asRight method to force the compiler to chose the correct type for the accumulator" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.EitherTest.we can turn data types into eithers" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers.we can use orElse and getOrElse to extract values from the right side" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers.recover and recover with methods provide similar error handling to their namesakes on future" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.RepresentingErrorsTest" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala vals are eager definitions" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala defs are lazy and not memoized" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala lazy vals are lazy and memoized" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.Eval types" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers.recover and recover with methods provide similar error handling to their namesakes on future" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.TransformingEithers.we can use orElse and getOrElse to extract values from the right side" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.EitherTest.we can turn data types into eithers" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.EitherTest.we can use the asRight method to force the compiler to chose the correct type for the accumulator" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.Eval types" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala lazy vals are lazy and memoized" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala defs are lazy and not memoized" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.EvalMonadTest.scala vals are eager definitions" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.RepresentingErrorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -539,35 +565,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EitherTest_we_can_turn_data_types_into_eithers - 2017.11.09 at 15h 39m 40s.xml">
-      <configuration name="EitherTest.we can turn data types into eithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_Eval_types - 2017.11.09 at 17h 23m 15s.xml">
+      <configuration name="EvalMonadTest.Eval types" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EitherTest_we_can_turn_data_types_into_eithers - 2017.11.09 at 15h 40m 15s.xml">
-      <configuration name="EitherTest.we can turn data types into eithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_Eval_types - 2017.11.09 at 17h 23m 40s.xml">
+      <configuration name="EvalMonadTest.Eval types" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EitherTest_we_can_turn_data_types_into_eithers - 2017.11.09 at 15h 41m 00s.xml">
-      <configuration name="EitherTest.we can turn data types into eithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_Eval_types - 2017.11.09 at 17h 24m 19s.xml">
+      <configuration name="EvalMonadTest.Eval types" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EitherTest_we_can_turn_data_types_into_eithers - 2017.11.09 at 15h 41m 32s.xml">
-      <configuration name="EitherTest.we can turn data types into eithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_scala_defs_are_lazy_and_not_memoized - 2017.11.09 at 17h 19m 14s.xml">
+      <configuration name="EvalMonadTest.scala defs are lazy and not memoized" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EitherTest_we_can_turn_data_types_into_eithers - 2017.11.09 at 15h 43m 45s.xml">
-      <configuration name="EitherTest.we can turn data types into eithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_scala_lazy_vals_are_lazy_and_memoized - 2017.11.09 at 17h 20m 41s.xml">
+      <configuration name="EvalMonadTest.scala lazy vals are lazy and memoized" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TransformingEithers - 2017.11.09 at 15h 57m 44s.xml">
-      <configuration name="TransformingEithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_scala_vals_are_eager_definitions - 2017.11.09 at 17h 16m 56s.xml">
+      <configuration name="EvalMonadTest.scala vals are eager definitions" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TransformingEithers - 2017.11.09 at 15h 58m 55s.xml">
-      <configuration name="TransformingEithers" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_scala_vals_are_eager_definitions - 2017.11.09 at 17h 17m 08s.xml">
+      <configuration name="EvalMonadTest.scala vals are eager definitions" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TransformingEithers_recover_and_recover_with_methods_provide_similar_error_handling_to_their_namesakes_on_future - 2017.11.09 at 15h 55m 33s.xml">
-      <configuration name="TransformingEithers.recover and recover with methods provide similar error handling to their namesakes on future" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EvalMonadTest_scala_vals_are_eager_definitions - 2017.11.09 at 17h 17m 56s.xml">
+      <configuration name="EvalMonadTest.scala vals are eager definitions" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TransformingEithers_we_can_use_orElse_and_getOrElse_to_extract_values_from_the_right_side - 2017.11.09 at 15h 46m 31s.xml">
-      <configuration name="TransformingEithers.we can use orElse and getOrElse to extract values from the right side" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="RepresentingErrorsTest - 2017.11.09 at 16h 44m 23s.xml">
+      <configuration name="RepresentingErrorsTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TransformingEithers_we_can_use_orElse_and_getOrElse_to_extract_values_from_the_right_side - 2017.11.09 at 15h 46m 43s.xml">
-      <configuration name="TransformingEithers.we can use orElse and getOrElse to extract values from the right side" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="RepresentingErrorsTest - 2017.11.09 at 16h 44m 58s.xml">
+      <configuration name="RepresentingErrorsTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -586,13 +612,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2954071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -951,8 +977,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/FailFastErrorHandlingTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#18#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/RepresentingErrors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/EvalMonadTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#18#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding />
         </state>
       </provider>
