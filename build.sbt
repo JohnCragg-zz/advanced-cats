@@ -1,0 +1,9 @@
+name := "advanced-cats"
+scalaVersion := "2.11.8"
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+resolvers ++= Seq("jBCrypt Repository" at "http://repo1.maven.org/maven2/org/")
+libraryDependencies += "org.typelevel" % "cats-core_2.11" % "0.9.0"
+libraryDependencies += "org.typelevel" % "cats-macros_2.11" % "0.9.0"
+libraryDependencies += "org.typelevel" % "cats-kernel_2.11" % "0.9.0"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.12.6" % "test"
