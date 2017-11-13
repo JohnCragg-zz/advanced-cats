@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dab375f5-9e8c-47bd-a7be-4b48207528f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/MyFirstWriterTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/SaferFold.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/TrampoliningExample.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter4/FirstReader.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter4/LoginSystem.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter4/ShowYourWorking.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/FirstReaderTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/LoginSystemTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/chapter4/ShowYourWorkingTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,23 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RepresentingErrorsTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#18#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EvalMonad.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +58,8 @@
       <file leaf-file-name="TrampoliningExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/TrampoliningExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#18#34#0" expanded="true" />
               </folding>
@@ -80,17 +71,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/SaferFold.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFirstWriterTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFirstWriterTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/MyFirstWriterTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
                 <element signature="e#18#32#0" expanded="true" />
               </folding>
@@ -98,34 +89,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalMonadTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/EvalMonadTest.scala">
+      <file leaf-file-name="ShowYourWorking.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/ShowYourWorking.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="38" />
               <folding>
-                <element signature="e#18#50#0" expanded="true" />
+                <element signature="e#18#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="FirstReader.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/FirstReader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-0.7.2-sources.jar!/cats/syntax/package.scala">
+      <file leaf-file-name="FirstReaderTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/FirstReaderTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSystem.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/LoginSystem.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#18#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSystemTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/LoginSystemTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowYourWorkingTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/ShowYourWorkingTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding>
+                <element signature="e#18#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,6 +210,12 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/TrampoliningExample.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/SaferFold.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter4/MyFirstWriterTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter4/ShowYourWorkingTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter4/ShowYourWorking.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter4/FirstReaderTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter4/FirstReader.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter4/LoginSystem.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter4/LoginSystemTest.scala" />
       </list>
     </option>
   </component>
@@ -240,6 +271,14 @@
               <item name="advanced-cats" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced-cats" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advanced-cats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advanced-cats" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,8 +292,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -287,11 +326,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.MyFirstWriterTest">
-    <configuration name="MyFirstWriterTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.LoginSystemTest">
+    <configuration name="FirstReaderTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.MyFirstWriterTest" />
+      <setting name="path" value="chapter4.FirstReaderTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -306,16 +345,16 @@
       <testRegexps />
       <envs />
     </configuration>
-    <configuration name="MyFirstWriterTest.If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="FirstReaderTest.flat map allows us to combine multiple readers that depend on the same input type" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.MyFirstWriterTest" />
+      <setting name="path" value="chapter4.FirstReaderTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" />
+      <setting name="testName" value="flat map allows us to combine multiple readers that depend on the same input type" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -324,16 +363,34 @@
       <testRegexps />
       <envs />
     </configuration>
-    <configuration name="MyFirstWriterTest.In addition to transforming the result with map and flatmap we can trasnform the log in a writer with mapWritten method" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="LoginSystemTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.MyFirstWriterTest" />
+      <setting name="path" value="chapter4.LoginSystemTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="In addition to transforming the result with map and flatmap we can trasnform the log in a writer with mapWritten method" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="LoginSystemTest.if the username does not exist I cannot log in" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="advanced-cats" />
+      <setting name="path" value="chapter4.LoginSystemTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="if the username does not exist I cannot log in" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -342,34 +399,16 @@
       <testRegexps />
       <envs />
     </configuration>
-    <configuration name="MyFirstWriterTest.the log in a writer is preserved when we map or flatmap over it andthe flatmap appends the logs from the source writer and then the resultsof the users sequencing function" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ShowYourWorkingTest.factorial can be written so it capture the log messages in a Writer" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="advanced-cats" />
-      <setting name="path" value="chapter4.MyFirstWriterTest" />
+      <setting name="path" value="chapter4.ShowYourWorkingTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="the log in a writer is preserved when we map or flatmap over it andthe flatmap appends the logs from the source writer and then the resultsof the users sequencing function" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-    </configuration>
-    <configuration name="MyFirstWriterTest.we can transform the log and the result simultaneously using the bimap" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="advanced-cats" />
-      <setting name="path" value="chapter4.MyFirstWriterTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="we can transform the log and the result simultaneously using the bimap" />
+      <setting name="testName" value="factorial can be written so it capture the log messages in a Writer" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <setting name="useSbt" value="false" />
@@ -460,19 +499,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.the log in a writer is preserved when we map or flatmap over it andthe flatmap appends the logs from the source writer and then the resultsof the users sequencing function" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.In addition to transforming the result with map and flatmap we can trasnform the log in a writer with mapWritten method" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.we can transform the log and the result simultaneously using the bimap" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShowYourWorkingTest.factorial can be written so it capture the log messages in a Writer" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.FirstReaderTest" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.FirstReaderTest.flat map allows us to combine multiple readers that depend on the same input type" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.LoginSystemTest.if the username does not exist I cannot log in" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.LoginSystemTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.we can transform the log and the result simultaneously using the bimap" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.In addition to transforming the result with map and flatmap we can trasnform the log in a writer with mapWritten method" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.the log in a writer is preserved when we map or flatmap over it andthe flatmap appends the logs from the source writer and then the resultsof the users sequencing function" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.MyFirstWriterTest.If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.LoginSystemTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.LoginSystemTest.if the username does not exist I cannot log in" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.FirstReaderTest.flat map allows us to combine multiple readers that depend on the same input type" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.FirstReaderTest" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShowYourWorkingTest.factorial can be written so it capture the log messages in a Writer" />
       </list>
     </recent_temporary>
   </component>
@@ -520,39 +559,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EvalMonadTest_scala_vals_are_eager_definitions - 2017.11.09 at 17h 17m 56s.xml">
-      <configuration name="EvalMonadTest.scala vals are eager definitions" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FirstReaderTest - 2017.11.13 at 08h 47m 23s.xml">
+      <configuration name="FirstReaderTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest - 2017.11.11 at 16h 07m 11s.xml">
-      <configuration name="MyFirstWriterTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FirstReaderTest - 2017.11.13 at 08h 50m 31s.xml">
+      <configuration name="FirstReaderTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest_If_we_have_both_a_result_and_a_log,_in_addition_to_using_WRiter_apply_as_we_did_above_we_can_usethe_writer_syntax_from_cats_syntax_writer - 2017.11.11 at 15h 51m 26s.xml">
-      <configuration name="MyFirstWriterTest.If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FirstReaderTest - 2017.11.13 at 08h 50m 47s.xml">
+      <configuration name="FirstReaderTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest_If_we_have_both_a_result_and_a_log,_in_addition_to_using_WRiter_apply_as_we_did_above_we_can_usethe_writer_syntax_from_cats_syntax_writer - 2017.11.11 at 15h 52m 50s.xml">
-      <configuration name="MyFirstWriterTest.If we have both a result and a log, in addition to using WRiter.apply as we did above we can usethe writer syntax from cats.syntax.writer" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FirstReaderTest_flat_map_allows_us_to_combine_multiple_readers_that_depend_on_the_same_input_type - 2017.11.13 at 08h 55m 24s.xml">
+      <configuration name="FirstReaderTest.flat map allows us to combine multiple readers that depend on the same input type" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest_In_addition_to_transforming_the_result_with_map_and_flatmap_we_can_trasnform_the_log_in_a_writer_with_mapWritten_method - 2017.11.11 at 16h 02m 22s.xml">
-      <configuration name="MyFirstWriterTest.In addition to transforming the result with map and flatmap we can trasnform the log in a writer with mapWritten method" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FirstReaderTest_flat_map_allows_us_to_combine_multiple_readers_that_depend_on_the_same_input_type - 2017.11.13 at 08h 55m 48s.xml">
+      <configuration name="FirstReaderTest.flat map allows us to combine multiple readers that depend on the same input type" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest_the_log_in_a_writer_is_preserved_when_we_map_or_flatmap_over_it_andthe_flatmap_appends_the_logs_from_the_source_writer_and_then_the_resultsof_the_users_sequencing_function - 2017.11.11 at 15h 59m 10s.xml">
-      <configuration name="MyFirstWriterTest.the log in a writer is preserved when we map or flatmap over it andthe flatmap appends the logs from the source writer and then the resultsof the users sequencing function" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LoginSystemTest - 2017.11.13 at 09h 18m 05s.xml">
+      <configuration name="LoginSystemTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MyFirstWriterTest_we_can_transform_the_log_and_the_result_simultaneously_using_the_bimap - 2017.11.11 at 16h 04m 14s.xml">
-      <configuration name="MyFirstWriterTest.we can transform the log and the result simultaneously using the bimap" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LoginSystemTest_if_the_username_does_not_exist_I_cannot_log_in - 2017.11.13 at 09h 16m 10s.xml">
+      <configuration name="LoginSystemTest.if the username does not exist I cannot log in" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="RepresentingErrorsTest - 2017.11.09 at 16h 44m 23s.xml">
-      <configuration name="RepresentingErrorsTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LoginSystemTest_if_the_username_does_not_exist_I_cannot_log_in - 2017.11.13 at 09h 16m 37s.xml">
+      <configuration name="LoginSystemTest.if the username does not exist I cannot log in" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="RepresentingErrorsTest - 2017.11.09 at 16h 44m 58s.xml">
-      <configuration name="RepresentingErrorsTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ShowYourWorkingTest_factorial_can_be_written_so_it_capture_the_log_messages_in_a_Writer - 2017.11.11 at 16h 45m 38s.xml">
+      <configuration name="ShowYourWorkingTest.factorial can be written so it capture the log messages in a Writer" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TrampoliningExample_we_can_avoid_stack_overflow_by_using_trampolining - 2017.11.11 at 15h 14m 39s.xml">
-      <configuration name="TrampoliningExample.we can avoid stack overflow by using trampolining" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ShowYourWorkingTest_factorial_function_prints_out_the_correct_answer - 2017.11.11 at 16h 16m 18s.xml">
+      <configuration name="ShowYourWorkingTest.factorial function prints out the correct answer" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="711" y="25" width="1209" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -564,12 +604,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -594,49 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter3/BasicFunctorsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter3/Invariants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/OurFirstMonadOption.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/OurFirstMonadOptionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/Listz.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/ListzTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -838,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#18#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,9 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#18#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,10 +869,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/RepresentingErrorsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="60">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="e#18#98#0" expanded="true" />
+            <element signature="e#18#98#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,7 +882,7 @@
         <state relative-caret-position="120">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#18#50#0" expanded="true" />
+            <element signature="e#18#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,7 +906,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/EvalMonad.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -928,14 +915,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/TrampoliningExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#18#34#0" expanded="true" />
           </folding>
@@ -945,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/SaferFold.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -954,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,17 +947,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/MyFirstWriterTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="345">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
             <element signature="e#18#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/ShowYourWorkingTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="e#18#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/ShowYourWorking.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/FirstReaderTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/FirstReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter4/LoginSystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter4/LoginSystemTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
